@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="mt-20 border-t bg-gray-950 text-white">
@@ -24,17 +26,17 @@ export default function Footer() {
 
             <div className="mt-4 flex flex-col gap-2 text-sm text-gray-400">
 
-              <a href="/destinations">
+              <Link href="/destinations">
                 Destinations
-              </a>
+              </Link>
 
-              <a href="/regions">
+              <Link href="/region">
                 Regions
-              </a>
+              </Link>
 
-              <a href="/about">
+              <Link href="/about">
                 About
-              </a>
+              </Link>
 
             </div>
           </div>

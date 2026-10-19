@@ -38,10 +38,17 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/regions"
+            href="/region"
             className="text-sm font-medium text-gray-700 hover:text-blue-600"
           >
             Regions
+          </Link>
+
+          <Link
+            href="/guide"
+            className="text-sm font-medium text-gray-700 hover:text-blue-600"
+          >
+            Guide
           </Link>
 
           <Link
@@ -87,10 +94,17 @@ export default function Navbar() {
             </Link>
 
             <Link
-              href="/regions"
+              href="/region"
               onClick={() => setMenuOpen(false)}
             >
               Regions
+            </Link>
+
+            <Link
+              href="/guide"
+              onClick={() => setMenuOpen(false)}
+            >
+              Guide
             </Link>
 
             <Link
